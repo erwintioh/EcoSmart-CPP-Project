@@ -58,7 +58,7 @@ void personalInfo() {
 	    system("cls"); 
 	    cout << "\n--- Environmental Personality Test ---" << endl;
 	    cout << "\n1. How often do you recycle at home?\n" << endl;
-	    cout << "(A) Never\n(B) Sometimes\n(C) Often\n(D) Always\n" << endl;
+	    cout << "[A] Never\n[B] Sometimes\n[C] Often\n[D] Always\n" << endl;
 	    cout << "Your answer (A/B/C/D): ";
 	    cin >> answer;
 	    answer = toupper(answer);
@@ -79,7 +79,7 @@ void personalInfo() {
     	system("cls");
     	cout << "\n--- Environmental Personality Test ---" << endl;
         cout << "\n2. What kind of transport do you use most?\n" << endl;
-        cout << "(A) Private car\n(B) Public transport\n(C) Bicycle\n(D) Walk\n" << endl;
+        cout << "[A} Private car\n[B] Public transport\n{C} Bicycle\n[D} Walk\n" << endl;
         cout << "Your answer (A/B/C/D): ";
         cin >> answer;
         answer = toupper(answer);
@@ -100,7 +100,7 @@ void personalInfo() {
     	system ("cls");
     	cout << "\n--- Environmental Personality Test ---" << endl;
         cout << "\n3. How do you prefer to shop?\n" << endl;
-        cout << "(A) Buy lots of new items\n(B) Sometimes buy second-hand\n(C) Mostly buy only what is needed\n(D) Minimalist, avoid consumption\n" << endl;
+        cout << "[A] Buy lots of new items\n[B] Sometimes buy second-hand\n[C] Mostly buy only what is needed\n[D] Minimalist, avoid consumption\n" << endl;
         cout << "Your answer (A/B/C/D): ";
         cin >> answer;
         answer = toupper(answer);
@@ -121,7 +121,7 @@ void personalInfo() {
     	system ("cls");
     	cout << "\n--- Environmental Personality Test ---" << endl;
         cout << "\n4. How do you handle food waste?\n" << endl;
-        cout << "(A) Throw it away\n(B) Try to reduce waste\n(C) Compost when possible\n(D) Plan meals carefully to avoid waste\n" << endl;
+        cout << "[A] Throw it away\n[B] Try to reduce waste\n[C] Compost when possible\n[D] Plan meals carefully to avoid waste\n" << endl;
         cout << "Your answer (A/B/C/D): ";
         cin >> answer;
         answer = toupper(answer);
@@ -142,7 +142,7 @@ void personalInfo() {
     	system ("cls");
     	cout << "\n--- Environmental Personality Test ---" << endl;
         cout << "\n5. What is your attitude toward sustainability?\n" << endl;
-        cout << "(A) Not important to me\n(B) I support it when convenient\n(C) I actively try to live sustainably\n(D) It's one of my core values\n" << endl;
+        cout << "[A] Not important to me\n[B] I support it when convenient\n[C] I actively try to live sustainably\n[D] It's one of my core values\n" << endl;
         cout << "Your answer (A/B/C/D): ";
         cin >> answer;
         answer = toupper(answer);
