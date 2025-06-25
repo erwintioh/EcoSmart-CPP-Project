@@ -303,7 +303,6 @@ void calculateCarbonFootprint() {
 
 void quiz() {
 	system("cls");
-    cout << "\n-------- Quiz Section --------" << endl;
     
     int score=0;
     char answer;
