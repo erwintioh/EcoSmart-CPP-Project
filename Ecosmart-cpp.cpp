@@ -158,7 +158,7 @@ void personalInfo() {
     if (answer == 'C') ecoScore += 2;
     if (answer == 'D') ecoScore += 3;
 
-    // Show personality result
+    // Show personality results
     system ("cls");
     cout << "\n======================================" << endl;
     cout << "||  Your Environmental Personality  ||" << endl;
