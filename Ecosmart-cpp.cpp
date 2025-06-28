@@ -10,7 +10,7 @@ int main() {
     char choice;
     
     do {
-        // Clear screens
+        // Clear screen
         system("cls");  
 
         cout << "=====================================================" << endl;
